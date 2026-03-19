@@ -48,8 +48,11 @@ public class Operacoes {
         return num1 * num2;
     }
 
-    public float dividir() {
-        return (float) num1 / (float) num2;
+    public double dividir() {
+        if (num2 != 0) {
+            return (float) num1 / (float) num2;
+        }
+        return 0;
     }
 
     @Override
