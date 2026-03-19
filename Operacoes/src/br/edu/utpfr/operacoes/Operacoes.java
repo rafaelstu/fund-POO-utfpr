@@ -50,7 +50,7 @@ public class Operacoes {
 
     public double dividir() {
         if (num2 != 0) {
-            return (float) num1 / (float) num2;
+            return (double) num1 / (double) num2;
         }
         return 0;
     }
