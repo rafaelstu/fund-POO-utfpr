@@ -1,3 +1,4 @@
+*.rar
 *.pdf
 /Aula1/nbproject/private/
 /Aula1/build/
@@ -9,3 +10,4 @@
 /Imc/nbproject/private/
 /Imc/build/
 /Imc/dist/
+/AulaEncapsulamentoVeiculoAlunos/build/
