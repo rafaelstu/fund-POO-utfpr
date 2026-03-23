@@ -47,13 +47,13 @@ public class Imc {
         if (valorImc < 20) {
             return "magro";
         }
-        if (valorImc < 24) {
+        if (valorImc <= 24) {
             return "normal";
         }
-        if (valorImc < 29) {
+        if (valorImc <= 29) {
             return "acima do peso";
         }
-        if (valorImc < 34) {
+        if (valorImc <= 34) {
             return "obeso";
         }
         return "muito obeso";
