@@ -35,8 +35,13 @@ public class Main {
         System.out.println("valores imc definidos pelo usuario: " + imc.toString());
 
         imcCalc = imc.calcularImc();
-        System.out.println("calculo do imc definido pelo usuario: " + imcCalc);
-        System.out.println("classificação imc definido pelo usuario: " + imc.classificacaoImc(imcCalc));
+
+        if (imcCalc != 0) {
+            System.out.println("calculo do imc definido pelo usuario: " + imcCalc);
+            System.out.println("classificação imc definido pelo usuario: " + imc.classificacaoImc(imcCalc));
+        } else {
+            System.out.println("nao foi possivel calcular");
+        }
 
     }
 
