@@ -1,3 +1,4 @@
+*.pdf
 /Aula1/nbproject/private/
 /Aula1/build/
 /Aula2/nbproject/private/
@@ -5,3 +6,6 @@
 /Operacoes/nbproject/private/
 /Operacoes/build/
 /Operacoes/dist/
+/Imc/nbproject/private/
+/Imc/build/
+/Imc/dist/
