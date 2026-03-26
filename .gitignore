@@ -1,3 +1,4 @@
+*.zip
 *.rar
 *.pdf
 /Aula1/nbproject/private/
@@ -11,3 +12,8 @@
 /Imc/build/
 /Imc/dist/
 /AulaEncapsulamentoVeiculoAlunos/build/
+/Quadrilatero/nbproject/private/
+/Quadrilatero/build/
+/Quadrilatero/dist/
+/Conta/nbproject/private/
+/Conta/build/
