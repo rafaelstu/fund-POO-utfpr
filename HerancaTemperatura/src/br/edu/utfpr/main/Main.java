@@ -5,6 +5,7 @@
 package br.edu.utfpr.main;
 
 import br.edu.utfpr.temperatura.Temperatura;
+import br.edu.utfpr.temperatura.TemperaturaLab;
 import java.util.Scanner;
 
 /**
@@ -34,6 +35,24 @@ public class Main {
         System.out.println(String.format("\n maior temperatura: %.2f", t.maiorTemperatura()));
         System.out.println(String.format("\n menor temperatura: %.2f", t.menorTemperatura()));
 
+        //lab
+        TemperaturaLab tL = new TemperaturaLab();
+
+        System.out.println("informe a temperatura maxima permitida no laboratorio");
+        tL.setLimiteTemperatura(s.nextDouble());
+        tL.setCidade(t.getCidade());
+
+        for (int i = 0; i < 7; i++) {
+            tL.setTemperaturas(i, t.getTemperatura(i));
+        }
+        System.out.println("dados de temperatura do laboratorio");
+        System.out.println(tL);
+        System.out.println("controle do laboratorio");
+        if (tL.isSeguro()) {
+            System.out.println("temperatura dentro do limite de segurança");
+        } else {
+            System.out.println("ALEERTA DE EMERGENCIA! TEMPERATURA ACIME DO LIMITE DE SEGURANÇA!!!!!!!11!!!1!!1!1!!");
+        }
         s.close();
     }
 
