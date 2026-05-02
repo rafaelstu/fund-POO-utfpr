@@ -5,14 +5,6 @@
         <group name="Interface"/>
         <group name="Encapsulamento"/>
         <group name="AgregacaoComposicao"/>
-        <group>
-            <file>file:/home/tomate/Documents/utfpr/2s/fundamentos-orientacao-obj/fund-POO-utfpr/AgregacaoMatriculaAlunos/src/br/edu/utfpr/entidades/Historico.java</file>
-            <file>file:/home/tomate/Documents/utfpr/2s/fundamentos-orientacao-obj/fund-POO-utfpr/AgregacaoMatriculaAlunos/src/br/edu/utfpr/entidades/Aluno.java</file>
-            <file>file:/home/tomate/Documents/utfpr/2s/fundamentos-orientacao-obj/fund-POO-utfpr/AgregacaoMatriculaAlunos/src/br/edu/utfpr/main/UsandoMatricula.java</file>
-            <file>file:/home/tomate/Documents/utfpr/2s/fundamentos-orientacao-obj/fund-POO-utfpr/AgregacaoMatriculaAlunos/src/br/edu/utfpr/entidades/Matricula.java</file>
-            <file>file:/home/tomate/Documents/utfpr/2s/fundamentos-orientacao-obj/fund-POO-utfpr/AgregacaoMatriculaAlunos/src/br/edu/utfpr/enums/Situacao.java</file>
-            <file>file:/home/tomate/Documents/utfpr/2s/fundamentos-orientacao-obj/fund-POO-utfpr/AgregacaoMatriculaAlunos/src/br/edu/utfpr/entidades/Disciplina.java</file>
-            <file>file:/home/tomate/Documents/utfpr/2s/fundamentos-orientacao-obj/fund-POO-utfpr/AgregacaoMatriculaAlunos/src/br/edu/utfpr/entidades/Pessoa.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
