@@ -4,7 +4,7 @@
  */
 package br.edu.utfpr.dao;
 
-import br.edu.utfpr.receita.Receita;
+import br.edu.utfpr.model.Receita;
 import java.util.ArrayList;
 import java.util.List;
 

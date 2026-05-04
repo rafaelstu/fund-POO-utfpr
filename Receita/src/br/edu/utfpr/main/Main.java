@@ -6,10 +6,10 @@ package br.edu.utfpr.main;
 
 import br.edu.utfpr.dao.ReceitaDao;
 import br.edu.utfpr.enums.Dificuldade;
-import br.edu.utfpr.ingrediente.Ingrediente;
-import br.edu.utfpr.receita.Doce;
-import br.edu.utfpr.receita.Receita;
-import br.edu.utfpr.receita.Salgado;
+import br.edu.utfpr.model.Ingrediente;
+import br.edu.utfpr.model.Doce;
+import br.edu.utfpr.model.Receita;
+import br.edu.utfpr.model.Salgado;
 
 /**
  *
