@@ -6,12 +6,6 @@
         <group name="Encapsulamento"/>
         <group name="AgregacaoComposicao"/>
         <group name="AulasFundamentos2023"/>
-        <group>
-            <file>file:/home/tomate/Documents/utfpr/2s/fundamentos-orientacao-obj/fund-POO-utfpr/AulaArrayListPedidoAlunos/src/br/edu/utfpr/dao/PedidoDao.java</file>
-            <file>file:/home/tomate/Documents/utfpr/2s/fundamentos-orientacao-obj/fund-POO-utfpr/AulaArrayListPedidoAlunos/src/br/edu/utfpr/entidades/Pedido.java</file>
-            <file>file:/home/tomate/Documents/utfpr/2s/fundamentos-orientacao-obj/fund-POO-utfpr/AulaArrayListPedidoAlunos/src/br/edu/utfpr/entidades/Vendedor.java</file>
-            <file>file:/home/tomate/Documents/utfpr/2s/fundamentos-orientacao-obj/fund-POO-utfpr/AulaArrayListPedidoAlunos/src/br/edu/utfpr/main/UsandoPedido.java</file>
-            <file>file:/home/tomate/Documents/utfpr/2s/fundamentos-orientacao-obj/fund-POO-utfpr/AulaArrayListPedidoAlunos/src/br/edu/utfpr/entidades/ItemPedido.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
