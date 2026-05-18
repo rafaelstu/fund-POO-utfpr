@@ -1,0 +1,9 @@
+polimorfismo:
+quando uma subclasse herda de uma superclasse,
+herdando seus metodos e podendo ser colocado
+na mesma "caixa" de outras subclasses que herdam da superclasse.
+
+palavras chave, downcasting (instaceof)
+		upcasting (metodo da super classe vindo do extends)
+
+
