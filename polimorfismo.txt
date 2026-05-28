@@ -7,3 +7,9 @@ palavras chave, downcasting (instaceof)
 		upcasting (metodo da super classe vindo do extends)
 
 
+capacidade de um objeto ser tratado de uma forma generica, superclasse.
+no polimorfismo, acesso apenas os metodos da superclasse.
+pois o compilador entende que por exemplo, gato é uma referencia de animal,
+porem os metodos que podem ser acessados sao apenas os de 'animal'
+no caso de acessar um metodo da classe gato, é necessaio
+fazer o downcasting com o <var> instanceof <subclasse> <var_subclasse>
