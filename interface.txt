@@ -1,0 +1,3 @@
+interface nao é classe modeladora, nao tem construtor.
+
+
