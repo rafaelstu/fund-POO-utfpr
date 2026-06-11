@@ -30,10 +30,7 @@ public class Pessoa {
     }
 
     public boolean validarAno(int anoNasc) {
-        if (anoNasc >= 1900 && anoNasc <= LocalDate.now().getYear()) {
-            return true;
-        }
-        return false;
+        return (anoNasc >= 1900 && anoNasc <= LocalDate.now().getYear());
     }
 
     public String getNome() {
@@ -61,8 +58,8 @@ public class Pessoa {
         StringBuilder sb = new StringBuilder();
 
         sb.append("\nPessoa: ").append(nome);
+        sb.append(" | idade: ").append(calcularIdade());
         sb.append(" | anoNasc: ").append(anoNasc);
-
         return sb.toString();
     }
 

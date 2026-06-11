@@ -6,6 +6,7 @@ package br.edu.utfpr.main;
 
 import br.edu.utfpr.entidades.Pessoa;
 import br.edu.utfpr.exception.TrataIdade;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
@@ -32,6 +33,9 @@ public class Main {
                 valido = true;
             } catch (TrataIdade e) {
                 System.out.println("erro: " + e.getMessage());
+            } catch (InputMismatchException e) {
+                System.out.println("erro: informe apenas numeros");
+                s.nextLine();
             }
 
         }
